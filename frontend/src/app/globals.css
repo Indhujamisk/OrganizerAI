@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-paper text-ink; font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+.card { @apply bg-white border border-line rounded-lg p-4; }
+.btn { @apply px-3 py-1.5 rounded-md text-sm font-medium border border-ink focus-visible:outline focus-visible:outline-2 focus-visible:outline-sun; }
+.btn-primary { @apply bg-ink text-white; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
